@@ -59,7 +59,6 @@ $(function () {
     \n【今日の一番好きな曲】\n${bestSong}
     \n【今日の推し】\n${impression}
     \n【今日一番こころに残ったこと】\n${memorableEvent}`;
-    alert(msg);
 
     sendText(msg);
     return false;
